@@ -1,0 +1,276 @@
+
+<!DOCTYPE html> 
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token Alien</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            background-color: #f9fafb;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navbar */
+        nav {
+            background-color: #28a745;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffeb3b;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #28a745, #36c16e);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+
+        header h1 {
+            font-size: 56px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+        }
+
+        /* Content */
+        .content {
+            padding: 40px 20px;
+        }
+
+        .section {
+            margin-bottom: 60px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            font-size: 32px;
+            color: #28a745;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 18px;
+        }
+
+        /* Roadmap */
+        .roadmap-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .roadmap {
+            position: relative;
+            width: 90%;
+            max-width: 900px;
+            margin: 50px 0;
+            padding-left: 50px;
+            border-left: 3px solid #28a745;
+        }
+
+        .roadmap .step {
+            position: relative;
+            margin: 60px 0;
+        }
+
+        .roadmap .step:before {
+            content: '';
+            position: absolute;
+            left: -15px;
+            top: 10px;
+            width: 25px;
+            height: 25px;
+            background-color: #28a745;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        .roadmap .step h3 {
+            font-size: 24px;
+            color: #28a745;
+        }
+
+        .roadmap .step p {
+            font-size: 18px;
+        }
+
+        /* Supply Chart */
+        .supply-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .supply-item {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .supply-item i {
+            font-size: 24px;
+            margin-right: 15px;
+            color: #333;
+        }
+
+        .supply-item span {
+            font-size: 18px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #28a745;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer .social-links a {
+            color: white;
+            margin: 0 10px;
+            font-size: 22px;
+            transition: color 0.3s;
+        }
+
+        footer .social-links a:hover {
+            color: #ffeb3b;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#intro">Introduction</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#supply">Total supply</a>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>Skibidi Alien</h1>
+        <p>Welcome to Skibidi Alien - The future of Memecoin!</p>
+    </header>
+
+    <!-- Content -->
+    <div class="content">
+        <!-- Intro Section -->
+        <div class="section" id="intro">
+            <h2>Introduction</h2>
+            <p>The Skibidi Alien Token was conceived as an idea inspired by popular memes on social media. With a vision to create an exciting token, Alien Skibidi was born to follow in the footsteps of today's renowned memecoins....</p>
+        </div>
+
+        <!-- Roadmap Section -->
+        <div class="section" id="roadmap">
+            <h2>Roadmap</h2>
+            <div class="roadmap-container">
+                <div class="roadmap">
+                    <div class="step">
+                        <h3>Q1 2025: Launch Token Skibidi Alien</h3>
+                        <p>Skibidi Alien is casts.</p>
+                    </div>
+                    <div class="step">
+                        <h3>Q2 2025: Feature Updates</h3>
+                        <p>"List of CEX platforms."</p>
+                    </div>
+                    <div class="step">
+                        <h3>Q3 2025: 1000 Holders</h3>
+                        <p>Collaborate with major companies and organizations...</p>
+                    </div>
+                    <div class="step">
+                        <h3>Q4 2025: Expand Global Community</h3>
+                        <p>Boost promotional campaigns...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Supply Section -->
+        <div class="section" id="supply">
+            <h2>Total Supply</h2>
+            <p>The total supply of Skibidi Alien is 1 thousand billion tokens. Distribution as follows:</p>
+            <div class="supply-container">
+                <div class="supply-item" data-percentage="50">
+                    <div class="text">
+                        <i class="fas fa-users"></i>
+                        <span>Community</span>
+                    </div>
+                </div>
+                <div class="supply-item" data-percentage="20">
+                    <div class="text">
+                        <i class="fas fa-user-cog"></i>
+                        <span>Development Team</span>
+                    </div>
+                </div>
+                <div class="supply-item" data-percentage="15">
+                    <div class="text">
+                        <i class="fas fa-handshake"></i>
+                        <span>Strategic Partners</span>
+                    </div>
+                </div>
+                <div class="supply-item" data-percentage="10">
+                    <div class="text">
+                        <i class="fas fa-bullhorn"></i>
+                        <span>Marketing</span>
+                    </div>
+                </div>
+                <div class="supply-item" data-percentage="5">
+                    <div class="text">
+                        <i class="fas fa-wrench"></i>
+                        <span>Development Fund</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-color: #000; color: #fff; padding: 40px 20px;">
+        <div style="max-width: 1200px; margin: auto; text-align: center;">
+            <h3 style="color: #fff; font-size: 28px; margin-bottom: 10px;">Skibidi Alien</h3>
+            <p style="color: #ccc; font-size: 18px;">Shaping the future of memecoins!</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
